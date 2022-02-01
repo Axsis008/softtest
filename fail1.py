@@ -1,0 +1,21 @@
+text = open('файл1.txt', encoding = 'utf-8').read()
+print(f'Otkruvaushih: {text.count("(")} \n Zakruvaushih: {text.count(")")}')
+a = (text.count("())", text.count("(()")))
+a = int(a)
+d = (text.count("(()"))
+d = int(d)
+b = (text.count(")"))
+b = int(b)
+c = (text.count("("))
+c = int(c)
+print("+1 Этаж =: ", c)
+print("-1 Этаж =: ", b)
+import math
+x = ((a + d)/2)
+print(x)
+o = (b - x)
+m = (c - x)
+g = (m - o)
+print(g) 
+
+
